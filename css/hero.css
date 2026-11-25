@@ -22,12 +22,12 @@
     border-radius: var(--radius-circle);
     align-self: center;
     display: flex;
-    align-items: center;       /* centraliza na vertical */
-    justify-content: center;          /* menor que o título, cabe no círculo */
+    align-items: center;       
+    justify-content: center;          
     line-height: 1;     
     padding-bottom: 25px; 
     box-shadow: var(--shadow-mid);    
-    border: var(--border-cards-btns);  /* tira o espaço extra da fonte */   
+    border: var(--border-cards-btns);  
 }
 
 .h1_3{
