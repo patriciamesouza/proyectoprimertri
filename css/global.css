@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
+:root {
+    --white: #FFFFFF;
+    --gray: #06060691;
+    --navy: #060048;
+    --pink: #EFADE4;
+    --light-blue: #94BBFB;
+    --yellow: #F6FF00;
+    --red: #FF0000;
+    --paper: #F6E9D8;
+    --paper-dark: #E2CDB4;
+    --btn-form: #5CA9F6;
+    --footer-bg: #1400FF;
+
+    --font-title: 'Fraunces', serif;
+    --font-text: 'Newsreader', serif;
+    
+    --shadow-small: 4px 4px 0 var(--navy);   /* tags, pílulas, botões pequenos */
+    --shadow-mid: 8px 8px 0 var(--navy);   /* cards e botões */
+    --shadow-large: 14px 14px 0 var(--navy); /* blocos grandes: formulário, card de texto */
+
+    --border-pills: 2px solid var(--navy);
+    --border-cards-btns: 4px solid var(--navy);
+
+    --radius-circle: 50%;
+    --radius-btns: 50px;
+    --radius-pills: 50px;
+    --radius-cards: 30px;
+
+    --font-size-title:70px;
+    --font-size-text: 30px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:var(--font-text);
+    font-size:var(--font-size-text);
+    color: var(--navy);
+}
+
+h1, h2 {
+    font-family:var(--font-title);
+    font-style: italic;
+    font-weight: 900;
+}
+
+section {
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.card{
+    padding: 20px;
+    background-color: var(--white);
+    border-radius: var(--radius-cards); 
+    border: var(--border-cards-btns);
+    box-shadow: var(--shadow-mid);
+}
+
+.btn{
+    font-family:var(--font-title);
+    font-style: italic;
+    font-weight: 900;
+    font-size: var(--font-size-text);
+    padding: 10px 20px;
+    background-color: var(--white);
+    border: var(--border-cards-btns);
+    border-radius: var(--radius-btns); 
+    box-shadow: var(--shadow-mid);
+}
