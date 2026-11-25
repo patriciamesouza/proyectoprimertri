@@ -52,7 +52,7 @@ h1, h2 {
 
 section {
     min-height: 100vh;
-    padding: 20px;
+    padding: 100px 70px;
 }
 
 .card{
@@ -73,4 +73,10 @@ section {
     border: var(--border-cards-btns);
     border-radius: var(--radius-btns); 
     box-shadow: var(--shadow-mid);
+}
+.tag{
+    box-shadow: var(--shadow-small);
+    border: var(--border-pills);
+    border-radius: var(--radius-pills);
+    padding: 10px 20px;
 }

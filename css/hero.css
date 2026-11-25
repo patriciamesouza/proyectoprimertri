@@ -1,0 +1,52 @@
+.hero{
+    background-image: url(../imgs/background.png);
+    display: flex;
+    flex-direction: column;
+}
+
+.hero_h1{
+    display: flex;
+    flex-direction: column;
+    font-size: 100px;
+    gap: 30px
+}
+
+.h1_1{
+    align-self: flex-start;
+}
+
+.h1_2{
+    width: 130px;
+    height: 130px;
+    background-color: var(--yellow);
+    border-radius: var(--radius-circle);
+    align-self: center;
+    display: flex;
+    align-items: center;       /* centraliza na vertical */
+    justify-content: center;          /* menor que o título, cabe no círculo */
+    line-height: 1;     
+    padding-bottom: 25px; 
+    box-shadow: var(--shadow-mid);    
+    border: var(--border-cards-btns);  /* tira o espaço extra da fonte */   
+}
+
+.h1_3{
+    align-self: flex-end;
+} 
+.hero_tag_inicio{
+    align-self: flex-start;
+    background-color: var(--white);
+    font-size: 25px;
+    transform: rotate(-4deg);
+}
+
+.hero_tag_final{
+    align-self: flex-end;
+    background-color: var(--white);
+    font-size: 25px;
+    transform: rotate(3deg);
+}
+
+.hero_btn{
+    align-self: flex-start;
+}
