@@ -34,6 +34,7 @@
     align-self: flex-end;
 } 
 .hero_tag_inicio{
+    margin-top:90px;
     align-self: flex-start;
     background-color: var(--white);
     font-size: 25px;
