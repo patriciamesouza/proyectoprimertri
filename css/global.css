@@ -40,6 +40,9 @@
     font-size:var(--font-size-text);
     color: var(--navy);
 }
+html {
+    scroll-behavior: smooth;
+}
 
 h1, h2 {
     font-family:var(--font-title);
@@ -49,7 +52,7 @@ h1, h2 {
 
 section {
     min-height: 100vh;
-    padding: 20px;
+    padding: 100px 70px;
 }
 
 .card{
@@ -72,4 +75,16 @@ a{
     border: var(--border-cards-btns);
     border-radius: var(--radius-btns); 
     box-shadow: var(--shadow-mid);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: var(--navy);
+}
+
+.tag{
+    box-shadow: var(--shadow-small);
+    border: var(--border-pills);
+    border-radius: var(--radius-pills);
+    padding: 10px 20px;
 }
