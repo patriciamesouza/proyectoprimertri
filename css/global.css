@@ -37,16 +37,16 @@
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 180px;  /* altura do header */
 
-body{
+}
+body {
     font-family:var(--font-text);
     font-size:var(--font-size-text);
     color: var(--navy);
 }
-html {
-    scroll-behavior: smooth;
-}
-
 h1, h2 {
     font-family:var(--font-title);
     font-style: italic;
@@ -66,6 +66,11 @@ section {
     box-shadow: var(--shadow-mid);
 }
 
+a{
+    text-decoration: none;
+    color: var(--navy);
+}
+
 .btn{
     font-family:var(--font-title);
     font-style: italic;
@@ -78,10 +83,7 @@ section {
     box-shadow: var(--shadow-mid);
     cursor: pointer;
 }
-a{
-    text-decoration: none;
-    color: var(--navy);
-}
+
 
 .tag{
     box-shadow: var(--shadow-small);
