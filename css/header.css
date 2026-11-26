@@ -1,12 +1,12 @@
 .header {
     position: fixed;
-    top: 0;                     /* NOVO: prende no topo */
-    left: 0;                    /* NOVO: prende na esquerda */
+    top: 0;                     
+    left: 0;                    
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;        /* MUDOU: no lugar do space-around */
-    padding: 40px 60px;         /* NOVO: margens nas laterais */
+    justify-content: space-between;        
+    padding: 40px 60px;         
     z-index: 1000;
 }
 .index{
