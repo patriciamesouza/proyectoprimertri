@@ -65,9 +65,12 @@ section {
     border: var(--border-cards-btns);
     box-shadow: var(--shadow-mid);
 }
+
 a{
     text-decoration: none;
+    color: var(--navy);
 }
+
 .btn{
     font-family:var(--font-title);
     font-style: italic;
@@ -80,10 +83,7 @@ a{
     box-shadow: var(--shadow-mid);
     cursor: pointer;
 }
-a{
-    text-decoration: none;
-    color: var(--navy);
-}
+
 
 .tag{
     box-shadow: var(--shadow-small);
