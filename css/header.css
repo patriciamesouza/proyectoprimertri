@@ -1,12 +1,12 @@
 .header {
     position: fixed;
-    top: 0;                     /* NOVO: prende no topo */
-    left: 0;                    /* NOVO: prende na esquerda */
+    top: 0;                     
+    left: 0;                    
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;        /* MUDOU: no lugar do space-around */
-    padding: 40px 60px;         /* NOVO: margens nas laterais */
+    justify-content: space-between;        
+    padding: 20px 60px 0px;         
     z-index: 1000;
 }
 .index{
@@ -14,14 +14,15 @@
     color: var(--gray);
 }
 .logo{
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
     border-radius: var(--radius-circle);
     border: var(--border-cards-btns);
     box-shadow: var(--shadow-mid);
     object-fit: cover;
 }
 .navbar{
+    font-size: 26px;
     padding: 10px 25px;
     background-color: var(--white);
     border: var(--border-pills);
@@ -38,6 +39,7 @@ ul{
 }
 
 .cta{
+    font-size: 26px;
     font-family: var(--font-title);
     box-shadow: var(--shadow-small);
     border: var(--border-pills);

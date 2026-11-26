@@ -39,7 +39,6 @@
 }
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 180px;  /* altura do header */
 
 }
 body {
@@ -55,7 +54,8 @@ h1, h2 {
 
 section {
     min-height: 100vh;
-    padding: 100px 70px;
+    padding: 180px 70px 50px;
+
 }
 
 .card{
