@@ -108,7 +108,26 @@
 
         <section id="denuncia" class="denuncia">
             <div class="contenido">
+                <h2>Denuncia</h2>
+                <p>Cuéntanos qué ha pasado. Cada denuncia aparece como un punto en el mapa para que sea posible veer la violencia que muchas veces pasa desapercibida. Y no tengas miedo, la denuncia es completamente anónima</p>
+                <div>
+                    <div class="card">
+                        <h3>Haz tu denuncia</h3>
+                        <p>No llevará más de un minuto</p>
+                        <form action="/denuncia" method="post" class="formulario__denuncia">
+                            <label for="fecha_denuncia">Fecha</label>
+                            <input type="date" id="fecha_denuncia" name="fecha_denuncia">
+                            <label for="ubicacion_denuncia">Ubicación</label>
+                            <input type="text" id="ubicacion_denuncia" name="ubicacion_denuncia" placeholder="Ej.: Calle Sierpes, Sevilla">
+                            <label for="descripcion_denuncia">Descripción</label>
+                            <input type="text" id="descripcion_denuncia" name="descripcion_denuncia" placeholder="¿Qué ha pasado?">
+                            <button type="submit" class="btn">ENVIAR DENUNCIA</button>
+                        </form>
+                    </div>
+                    <div class="mapa">
 
+                    </div>
+                </div>
             </div>
         </section>
     </main>
