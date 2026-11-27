@@ -1,0 +1,122 @@
+.conquistas__puente__h2{
+    font-size: 100px;
+    text-align: end;
+
+}
+
+.conquistas__puente{
+    background-color: var(--light-blue);
+}
+
+.contenido__conquistas__puente{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    gap: 40px;
+}
+
+.contenido__izquierdo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.tag_conquista{
+    background-color: var(--yellow);
+    font-size: 25px;
+    align-self: flex-start;
+}
+.card_conquista{
+    align-self: flex-start;
+    margin-right: 20px;
+}
+.pasaporte{
+    margin: 50px;
+    background-color: var(--paper);
+    align-self:center;
+    border: var(--border-cards-btns);
+    padding: 20px 60px 30px 20px;
+    transform: rotate(-10deg);
+    border-radius: 30px;
+    
+}
+.titulo__pasaporte{
+    font-size: 17px;
+    color: #686868;
+    margin: 15px 0px 20px;
+}
+
+.informaciones__pasaporte{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+.foto__pasaporte{
+    background-color: var(--paper-dark);
+    width: 120px;
+    height: 160px;
+    border: 3px solid #000;
+    border-radius: 30px;
+}
+
+.pasaporte__datos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pasaporte__label{
+    margin: 10px 0px 0px;
+    font-size: 17px;
+    color: #686868;
+
+}
+
+.pasaporte__nombre{
+    font-weight: 700;
+}
+
+.linea__pasaporte{
+    background-color:#949292;
+    height: 10px;
+    border-radius: 50px;
+}
+
+.linea__pasaporte1{
+    width: 270px;
+}
+
+.linea__pasaporte2{
+    width: 200px;
+}
+
+.linea__pasaporte3{
+    width: 250px;
+}
+
+.sello{
+    background-color: color-mix(in srgb, var(--paper) 95%, transparent);
+    color: var(--red);
+    font-family: var(--font-title);
+    font-weight:bolder;
+    font-size: 24px;
+    position: absolute;
+    padding: 20px;
+    height: 100px;
+    width: 240px;
+    border: 2px solid var(--red);
+    border-radius: 30px;
+    text-align: center;
+    bottom: -40px;
+    right: -100px;
+    transform: rotate(-30deg);
+}
+
+.contenido__derecho{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.btn__conquistas{
+    align-self: flex-end;
+}
