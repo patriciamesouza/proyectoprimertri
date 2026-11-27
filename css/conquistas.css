@@ -110,3 +110,13 @@
     right: -100px;
     transform: rotate(-30deg);
 }
+
+.contenido__derecho{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.btn__conquistas{
+    align-self: flex-end;
+}
