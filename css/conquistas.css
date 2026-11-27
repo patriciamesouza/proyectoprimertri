@@ -74,3 +74,39 @@
 .pasaporte__nombre{
     font-weight: 700;
 }
+
+.linea__pasaporte{
+    background-color:#949292;
+    height: 10px;
+    border-radius: 50px;
+}
+
+.linea__pasaporte1{
+    width: 270px;
+}
+
+.linea__pasaporte2{
+    width: 200px;
+}
+
+.linea__pasaporte3{
+    width: 250px;
+}
+
+.sello{
+    background-color: color-mix(in srgb, var(--paper) 95%, transparent);
+    color: var(--red);
+    font-family: var(--font-title);
+    font-weight:bolder;
+    font-size: 24px;
+    position: absolute;
+    padding: 20px;
+    height: 100px;
+    width: 240px;
+    border: 2px solid var(--red);
+    border-radius: 30px;
+    text-align: center;
+    bottom: -40px;
+    right: -100px;
+    transform: rotate(-30deg);
+}
