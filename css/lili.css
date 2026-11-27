@@ -1,0 +1,107 @@
+.lili{
+    background-color: var(--light-blue); 
+}
+
+.contenido__lili {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 60px 40px;
+    gap: 60px; 
+}    
+
+
+.card{
+    padding: 20px;
+    background-color: var(--white);
+    border-radius: var(--radius-cards); 
+    border: var(--border-cards-btns);
+    box-shadow: var(--shadow-mid);
+    
+
+}
+
+h1, h2 {
+    font-family:var(--font-title);
+    font-style: italic;
+    font-weight: 900;
+}
+
+.treinta{
+    font-style: italic;
+    background-color: #5CA9F6;
+    border-radius: 100px;
+    border: 2px solid #060048;
+    padding: 5px 10px; 
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+
+}
+
+.treintayuno{
+    font-style: italic;
+    background-color:#EFADE4;;
+    border-radius: 100px;
+    border: 2px solid #060048;
+    padding: 5px 10px; 
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+
+.galeria-fotos {
+    position: relative;
+    width: 380px; 
+    height: 560px;
+    flex-shrink: 0;
+}
+
+.galeria-fotos .foto-topo, 
+.galeria-fotos .foto-medio, 
+.galeria-fotos .foto-baja {
+    position: absolute !important;
+    width: 220px !important; /* Tamanho exato da moldura */
+    height: 280px !important;
+    background-color: var(--white) !important;
+    border: var(--border-cards-btns) !important;
+    border-radius: 20px !important;
+    box-shadow: var(--shadow-small) !important;
+    overflow: hidden !important; /* ISSO CORTA O COMPORTAMENTO GIGANTE DA FOTO */
+    transition: transform 0.3s ease;
+}
+.galeria-fotos img {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    object-fit: cover !important; /* Ajusta a foto sem distorcer */
+    display: block !important;
+}
+
+/* --- Posições e Inclinações Individuais --- */
+.galeria-fotos .foto-topo {
+    top: 0 !important;
+    right: 20px !important;
+    transform: rotate(8deg) !important;
+    z-index: 3 !important;
+}
+
+.galeria-fotos .foto-medio {
+    top: 155px;
+    right: -10px;
+    z-index: 2;
+}
+
+.galeria-fotos .foto-baja {
+    top: 310px ;
+    right: 40px ;
+    z-index: 1 ;
+}
+
+
+
