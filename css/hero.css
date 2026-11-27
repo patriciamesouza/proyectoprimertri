@@ -1,5 +1,7 @@
-.contenido__hero{
+.hero{
     background-image: url(../imgs/background.png);
+}
+.contenido__hero{
     display: flex;
     flex-direction: column;
 }
