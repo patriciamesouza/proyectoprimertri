@@ -1,4 +1,4 @@
-.hero{
+.contenido__hero{
     background-image: url(../imgs/background.png);
     display: flex;
     flex-direction: column;
