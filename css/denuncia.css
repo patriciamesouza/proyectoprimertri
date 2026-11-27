@@ -1,0 +1,44 @@
+.denuncia{
+    background-color: var(--pink);
+}
+
+.titulo__denuncia{
+    margin-bottom: 10px;
+}
+
+.card__formulario{
+    margin-top: 20px;
+}
+.label__formulario{
+    font-size: 25px;
+}
+.campo__formulario{
+    font-family: var(--font-text);
+    height: 40px;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid;
+}
+.formulario__denuncia{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.titulo__formulario{
+    margin-bottom: 5px;
+}
+
+.subtitulo__formulario{
+    font-size: 25px;
+    color: color-mix(in srgb, var(--navy) 50%, white);
+    margin-bottom: 20px;
+
+}
+
+.btn__denuncia{
+    font-size: 25px;
+    background-color: var(--btn-form);
+    margin-top: 30px;
+}
+
